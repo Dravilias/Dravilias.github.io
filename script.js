@@ -4,8 +4,8 @@ function randint(min, max) {
 }
 
 function move(image, x, y) {
-    image.style.left = x;
-    image.style.top = y;
+    image.style.left = x + "px";
+    image.style.top = y + "px";
 }
 
 function getDimensions(image) {
